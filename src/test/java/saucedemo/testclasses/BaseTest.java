@@ -6,8 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+
+import saucedemo.utils.ScreenshotUtil;
 
 
 
@@ -28,6 +32,11 @@ public class BaseTest {
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	        driver.get("https://www.saucedemo.com/");
 	       wait = new WebDriverWait(driver,Duration.ofSeconds(2));
+	    }
+	    @AfterMethod
+	    public void takeScreenshotAfterTest(ITestResult result) {
+	        String testName = result.getMethod().getMethodName();
+	        
 	    }
 
 	    @AfterSuite

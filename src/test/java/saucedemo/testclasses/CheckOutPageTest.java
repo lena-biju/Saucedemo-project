@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import saucedemo.pages.CheckOutPage;
+import saucedemo.utils.ScreenshotUtil;
 
 public class CheckOutPageTest extends BaseTest {
 
@@ -21,6 +22,7 @@ public class CheckOutPageTest extends BaseTest {
     public void verifyCheckoutPageHeading() {
         String heading = checkoutPage.getHeadingText();
         assertEquals(heading, "Checkout: Your Information", "Checkout page heading mismatch");
+        ScreenshotUtil.takeScreenshot(driver, this.getClass().getSimpleName(), "verifyCheckoutPageHeading");
     }
 
     @Test(priority = 2)
@@ -31,6 +33,7 @@ public class CheckOutPageTest extends BaseTest {
         Thread.sleep(2000);
         checkoutPage.enterPostalCode("12345");
         Thread.sleep(2000);
+        ScreenshotUtil.takeScreenshot(driver, this.getClass().getSimpleName(), "fillCheckoutInformation");
     }
 
     @Test(priority = 3)
@@ -39,6 +42,7 @@ public class CheckOutPageTest extends BaseTest {
 
         String currentUrl = driver.getCurrentUrl();
         assertTrue(currentUrl.contains("checkout-step-two.html"), "Did not navigate to checkout step two");
+        ScreenshotUtil.takeScreenshot(driver, this.getClass().getSimpleName(), "clickContinueAndVerifyNavigation");
     }
 
     @Test(priority = 4)
@@ -48,5 +52,6 @@ public class CheckOutPageTest extends BaseTest {
 
         String currentUrl = driver.getCurrentUrl();
         assertTrue(currentUrl.contains("checkout-complete.html"), "Did not complete checkout successfully");
+        ScreenshotUtil.takeScreenshot(driver, this.getClass().getSimpleName(), "completeCheckoutProcess");
     }
 }

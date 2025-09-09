@@ -2,154 +2,330 @@
 <testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-08T10:44:48 IST" name="Suite" finished-at="2025-09-08T10:46:22 IST" duration-ms="93592">
+  <suite started-at="2025-09-08T13:00:10 IST" name="Suite" finished-at="2025-09-08T13:01:46 IST" duration-ms="95621">
     <groups>
     </groups>
-    <test started-at="2025-09-08T10:44:48 IST" name="Test" finished-at="2025-09-08T10:46:22 IST" duration-ms="93592">
+    <test started-at="2025-09-08T13:00:10 IST" name="Test" finished-at="2025-09-08T13:01:46 IST" duration-ms="95621">
       <class name="saucedemo.testclasses.ProductPageTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:44:50 IST" name="init" finished-at="2025-09-08T10:44:50 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:12 IST" name="init" finished-at="2025-09-08T13:00:12 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="productDisplayed()[pri:1, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:44:50 IST" name="productDisplayed" finished-at="2025-09-08T10:44:50 IST" duration-ms="181" status="PASS">
+        <test-method signature="productDisplayed()[pri:1, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:12 IST" name="productDisplayed" finished-at="2025-09-08T13:00:13 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productDisplayed -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:44:50 IST" name="init" finished-at="2025-09-08T10:44:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:13 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:00:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productDisplayed status=SUCCESS method=ProductPageTest.productDisplayed()[pri:1, instance:saucedemo.testclasses.ProductPageTest@7ee8290b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:13 IST" name="init" finished-at="2025-09-08T13:00:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="addProductToCart()[pri:2, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:44:50 IST" name="addProductToCart" finished-at="2025-09-08T10:44:51 IST" duration-ms="470" status="PASS">
+        <test-method signature="addProductToCart()[pri:2, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:13 IST" name="addProductToCart" finished-at="2025-09-08T13:00:13 IST" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCart -->
-        <test-method signature="removeProductFromCart()[pri:4, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:44:51 IST" name="removeProductFromCart" finished-at="2025-09-08T10:45:11 IST" duration-ms="20372" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:13 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:00:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=ProductPageTest.addProductToCart()[pri:2, instance:saucedemo.testclasses.ProductPageTest@7ee8290b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:13 IST" name="init" finished-at="2025-09-08T13:00:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="removeProductFromCart()[pri:4, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:13 IST" name="removeProductFromCart" finished-at="2025-09-08T13:00:33 IST" duration-ms="20372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeProductFromCart -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:44:51 IST" name="init" finished-at="2025-09-08T10:44:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:33 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:00:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCart status=SUCCESS method=ProductPageTest.removeProductFromCart()[pri:4, instance:saucedemo.testclasses.ProductPageTest@7ee8290b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:45:11 IST" name="init" finished-at="2025-09-08T10:45:11 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="addProductAfterRemovingAll()[pri:5, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:45:11 IST" name="addProductAfterRemovingAll" finished-at="2025-09-08T10:45:31 IST" duration-ms="20188" status="PASS">
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method signature="addProductAfterRemovingAll()[pri:5, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:33 IST" name="addProductAfterRemovingAll" finished-at="2025-09-08T13:00:54 IST" duration-ms="20187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductAfterRemovingAll -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:45:31 IST" name="init" finished-at="2025-09-08T10:45:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:33 IST" name="init" finished-at="2025-09-08T13:00:33 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="addSecondProductToCart()[pri:6, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:45:31 IST" name="addSecondProductToCart" finished-at="2025-09-08T10:45:52 IST" duration-ms="20376" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:54 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:00:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductAfterRemovingAll status=SUCCESS method=ProductPageTest.addProductAfterRemovingAll()[pri:5, instance:saucedemo.testclasses.ProductPageTest@7ee8290b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method signature="addSecondProductToCart()[pri:6, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:54 IST" name="addSecondProductToCart" finished-at="2025-09-08T13:01:14 IST" duration-ms="20371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSecondProductToCart -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:45:52 IST" name="init" finished-at="2025-09-08T10:45:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:00:54 IST" name="init" finished-at="2025-09-08T13:00:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="goToCartTest()[pri:7, instance:saucedemo.testclasses.ProductPageTest@5b94b04d]" started-at="2025-09-08T10:45:52 IST" name="goToCartTest" finished-at="2025-09-08T10:45:52 IST" duration-ms="407" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:01:14 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addSecondProductToCart status=SUCCESS method=ProductPageTest.addSecondProductToCart()[pri:6, instance:saucedemo.testclasses.ProductPageTest@7ee8290b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method signature="goToCartTest()[pri:7, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:01:14 IST" name="goToCartTest" finished-at="2025-09-08T13:01:14 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToCartTest -->
-      </class> <!-- saucedemo.testclasses.ProductPageTest -->
-      <class name="saucedemo.testclasses.CartPageTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CartPageTest@8c3b9d]" started-at="2025-09-08T10:45:52 IST" name="init" finished-at="2025-09-08T10:45:52 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:01:14 IST" name="init" finished-at="2025-09-08T13:01:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="isCartPage()[pri:1, instance:saucedemo.testclasses.CartPageTest@8c3b9d]" started-at="2025-09-08T10:45:52 IST" name="isCartPage" finished-at="2025-09-08T10:45:52 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.ProductPageTest@7ee8290b]" started-at="2025-09-08T13:01:14 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:14 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToCartTest status=SUCCESS method=ProductPageTest.goToCartTest()[pri:7, instance:saucedemo.testclasses.ProductPageTest@7ee8290b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+      </class> <!-- saucedemo.testclasses.ProductPageTest -->
+      <class name="saucedemo.testclasses.CartPageTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:14 IST" name="init" finished-at="2025-09-08T13:01:14 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="isCartPage()[pri:1, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:14 IST" name="isCartPage" finished-at="2025-09-08T13:01:15 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isCartPage -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CartPageTest@8c3b9d]" started-at="2025-09-08T10:45:52 IST" name="init" finished-at="2025-09-08T10:45:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:15 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isCartPage status=SUCCESS method=CartPageTest.isCartPage()[pri:1, instance:saucedemo.testclasses.CartPageTest@1f59a598] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="removeProductFromCart()[pri:2, instance:saucedemo.testclasses.CartPageTest@8c3b9d]" started-at="2025-09-08T10:45:52 IST" name="removeProductFromCart" finished-at="2025-09-08T10:46:13 IST" duration-ms="20409" status="PASS">
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method signature="removeProductFromCart()[pri:2, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:15 IST" name="removeProductFromCart" finished-at="2025-09-08T13:01:36 IST" duration-ms="21282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeProductFromCart -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CartPageTest@8c3b9d]" started-at="2025-09-08T10:46:13 IST" name="init" finished-at="2025-09-08T10:46:13 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:15 IST" name="init" finished-at="2025-09-08T13:01:15 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="clickCheckOut()[pri:4, instance:saucedemo.testclasses.CartPageTest@8c3b9d]" started-at="2025-09-08T10:46:13 IST" name="clickCheckOut" finished-at="2025-09-08T10:46:13 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:36 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCart status=SUCCESS method=CartPageTest.removeProductFromCart()[pri:2, instance:saucedemo.testclasses.CartPageTest@1f59a598] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method signature="clickCheckOut()[pri:4, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:36 IST" name="clickCheckOut" finished-at="2025-09-08T13:01:36 IST" duration-ms="330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCheckOut -->
-      </class> <!-- saucedemo.testclasses.CartPageTest -->
-      <class name="saucedemo.testclasses.CheckOutPageTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@4c39bec8]" started-at="2025-09-08T10:46:13 IST" name="init" finished-at="2025-09-08T10:46:13 IST" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:36 IST" name="init" finished-at="2025-09-08T13:01:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verifyCheckoutPageHeading()[pri:1, instance:saucedemo.testclasses.CheckOutPageTest@4c39bec8]" started-at="2025-09-08T10:46:13 IST" name="verifyCheckoutPageHeading" finished-at="2025-09-08T10:46:13 IST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.CartPageTest@1f59a598]" started-at="2025-09-08T13:01:36 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickCheckOut status=SUCCESS method=CartPageTest.clickCheckOut()[pri:4, instance:saucedemo.testclasses.CartPageTest@1f59a598] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+      </class> <!-- saucedemo.testclasses.CartPageTest -->
+      <class name="saucedemo.testclasses.CheckOutPageTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:36 IST" name="init" finished-at="2025-09-08T13:01:36 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyCheckoutPageHeading()[pri:1, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:36 IST" name="verifyCheckoutPageHeading" finished-at="2025-09-08T13:01:36 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutPageHeading -->
-        <test-method signature="fillCheckoutInformation()[pri:2, instance:saucedemo.testclasses.CheckOutPageTest@4c39bec8]" started-at="2025-09-08T10:46:13 IST" name="fillCheckoutInformation" finished-at="2025-09-08T10:46:19 IST" duration-ms="6363" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:36 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutPageHeading status=SUCCESS method=CheckOutPageTest.verifyCheckoutPageHeading()[pri:1, instance:saucedemo.testclasses.CheckOutPageTest@1e178745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:36 IST" name="init" finished-at="2025-09-08T13:01:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="fillCheckoutInformation()[pri:2, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:36 IST" name="fillCheckoutInformation" finished-at="2025-09-08T13:01:43 IST" duration-ms="6535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCheckoutInformation -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@4c39bec8]" started-at="2025-09-08T10:46:13 IST" name="init" finished-at="2025-09-08T10:46:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:43 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillCheckoutInformation status=SUCCESS method=CheckOutPageTest.fillCheckoutInformation()[pri:2, instance:saucedemo.testclasses.CheckOutPageTest@1e178745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:43 IST" name="init" finished-at="2025-09-08T13:01:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="clickContinueAndVerifyNavigation()[pri:3, instance:saucedemo.testclasses.CheckOutPageTest@4c39bec8]" started-at="2025-09-08T10:46:19 IST" name="clickContinueAndVerifyNavigation" finished-at="2025-09-08T10:46:19 IST" duration-ms="103" status="PASS">
+        <test-method signature="clickContinueAndVerifyNavigation()[pri:3, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:43 IST" name="clickContinueAndVerifyNavigation" finished-at="2025-09-08T13:01:43 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContinueAndVerifyNavigation -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@4c39bec8]" started-at="2025-09-08T10:46:19 IST" name="init" finished-at="2025-09-08T10:46:19 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:43 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickContinueAndVerifyNavigation status=SUCCESS method=CheckOutPageTest.clickContinueAndVerifyNavigation()[pri:3, instance:saucedemo.testclasses.CheckOutPageTest@1e178745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:43 IST" name="init" finished-at="2025-09-08T13:01:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="completeCheckoutProcess()[pri:4, instance:saucedemo.testclasses.CheckOutPageTest@4c39bec8]" started-at="2025-09-08T10:46:19 IST" name="completeCheckoutProcess" finished-at="2025-09-08T10:46:22 IST" duration-ms="2087" status="PASS">
+        <test-method signature="completeCheckoutProcess()[pri:4, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:43 IST" name="completeCheckoutProcess" finished-at="2025-09-08T13:01:46 IST" duration-ms="2668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeCheckoutProcess -->
-        <test-method is-config="true" signature="init()[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@4c39bec8]" started-at="2025-09-08T10:46:19 IST" name="init" finished-at="2025-09-08T10:46:19 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.CheckOutPageTest@1e178745]" started-at="2025-09-08T13:01:46 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:01:46 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckoutProcess status=SUCCESS method=CheckOutPageTest.completeCheckoutProcess()[pri:4, instance:saucedemo.testclasses.CheckOutPageTest@1e178745] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
+        </test-method> <!-- takeScreenshotAfterTest -->
       </class> <!-- saucedemo.testclasses.CheckOutPageTest -->
       <class name="saucedemo.testclasses.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:44:37 IST" name="setup" finished-at="2025-09-08T10:44:48 IST" duration-ms="11097" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:05 IST" name="setup" finished-at="2025-09-08T13:00:10 IST" duration-ms="5011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:44:49 IST" name="setupPages" finished-at="2025-09-08T10:44:49 IST" duration-ms="50" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:11 IST" name="setupPages" finished-at="2025-09-08T13:00:11 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:44:49 IST" name="navigateToLoginPage" finished-at="2025-09-08T10:44:49 IST" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:11 IST" name="navigateToLoginPage" finished-at="2025-09-08T13:00:11 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:44:49 IST" name="invalidLoginTest" finished-at="2025-09-08T10:44:49 IST" duration-ms="391" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:11 IST" name="invalidLoginTest" finished-at="2025-09-08T13:00:12 IST" duration-ms="465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:44:49 IST" name="navigateToLoginPage" finished-at="2025-09-08T10:44:49 IST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:12 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:00:12 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginPageTest.invalidLoginTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:12 IST" name="navigateToLoginPage" finished-at="2025-09-08T13:00:12 IST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="lockedOutUserTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:44:49 IST" name="lockedOutUserTest" finished-at="2025-09-08T10:44:50 IST" duration-ms="314" status="PASS">
+        <test-method signature="lockedOutUserTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:12 IST" name="lockedOutUserTest" finished-at="2025-09-08T13:00:12 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lockedOutUserTest -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:44:50 IST" name="navigateToLoginPage" finished-at="2025-09-08T10:44:50 IST" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:12 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:00:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lockedOutUserTest status=SUCCESS method=LoginPageTest.lockedOutUserTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:12 IST" name="navigateToLoginPage" finished-at="2025-09-08T13:00:12 IST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="validLoginTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:44:50 IST" name="validLoginTest" finished-at="2025-09-08T10:44:50 IST" duration-ms="298" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:12 IST" name="validLoginTest" finished-at="2025-09-08T13:00:12 IST" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucedemo.testclasses.LoginPageTest@1190200a]" started-at="2025-09-08T10:46:24 IST" name="teardown" finished-at="2025-09-08T10:46:26 IST" duration-ms="1911" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:00:12 IST" name="takeScreenshotAfterTest" finished-at="2025-09-08T13:00:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginPageTest.validLoginTest()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucedemo.testclasses.LoginPageTest@291caca8]" started-at="2025-09-08T13:01:47 IST" name="teardown" finished-at="2025-09-08T13:01:48 IST" duration-ms="1059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

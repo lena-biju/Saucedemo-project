@@ -12,31 +12,22 @@ import org.openqa.selenium.WebDriver;
 
 public class ScreenshotUtil {
 
-    public static String takeScreenshot(WebDriver driver, String pageName) {
-        // today's date folder (yyyyMMdd)
-        String today = new SimpleDateFormat("yyyyMMdd").format(new Date());
+	public static String takeScreenshot(WebDriver driver, String className, String testName) {
+	    String today = new SimpleDateFormat("yyyyMMdd").format(new Date());
+	    String screenshotDir = System.getProperty("user.dir") + "/screenshots/" + today + "/" + className + "/";
+	    new File(screenshotDir).mkdirs();
 
-        // folder path
-        String screenshotDir = System.getProperty("user.dir") + "/screenshots/" + today + "/";
-        new File(screenshotDir).mkdirs();
+	    String filePath = screenshotDir + testName + ".png";
+	    File destFile = new File(filePath);
 
-        // final file path (no timestamp → always same name per page/test)
-        String filePath = screenshotDir + pageName + ".png";
-        File destFile = new File(filePath);
+	    try {
+	        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+	        FileUtils.copyFile(src, destFile);
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
 
-        // if file already exists → return existing
-        if (destFile.exists()) {
-            return filePath;
-        }
+	    return filePath;
+	}
 
-        // else → capture and save new
-        try {
-            File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(src, destFile);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        return filePath;
-    }
 }
